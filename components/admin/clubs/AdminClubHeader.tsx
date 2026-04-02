@@ -14,6 +14,7 @@ interface Creator {
 
 interface Props {
   creators: Creator[];
+  totalClubs?: number;
 }
 
 export default function AdminClubHeader({ creators }: Props) {
